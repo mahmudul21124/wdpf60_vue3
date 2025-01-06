@@ -14,7 +14,9 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/about">About</RouterLink> | |
         <RouterLink to="/food">FoodItems</RouterLink> | |
         <RouterLink to="/fruit">FruitPage</RouterLink> | |
-        <RouterLink to="/todo">TodoList</RouterLink>
+        <RouterLink to="/todo">TodoList</RouterLink> | |
+        <RouterLink to="/flower">Flower Item</RouterLink> | |
+        <RouterLink to="/flowerlist">Flower List</RouterLink>
       </nav>
     </div>
   </header>

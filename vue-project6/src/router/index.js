@@ -4,6 +4,8 @@ import AboutView from '@/views/AboutView.vue'
 import FoodItems from '@/components/FoodItems.vue'
 import FruitPage from '@/views/FruitPage.vue'
 import TodoList from '@/views/TodoList.vue'
+import FlowerItems from '@/views/FlowerItems.vue'
+import FlowerList from '@/views/FlowerList.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +34,16 @@ const router = createRouter({
       path: '/todo',
       name: 'todo',
       component: TodoList,
+    },
+    {
+      path: '/flower',
+      name: 'flower',
+      component: FlowerItems,
+    },
+    {
+      path: '/flowerlist',
+      name: 'flowerlist',
+      component: FlowerList,
     },
     
   ],
